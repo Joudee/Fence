@@ -1,0 +1,37 @@
+:local(.root) {
+    width: 1000px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 1px 15px rgba(0,0,0,0.2);
+    padding: 3vh 0;
+    margin: -70px auto 0 auto;
+    position: relative;
+    z-index: 3;
+    li{
+        width: 33.33%;
+        overflow: hidden;
+        float: left;
+        text-align: center;
+        &:nth-child(2){
+            span{
+                line-height: 1.5;
+            }
+        }
+        span{
+            display: block;
+            width: 100%;
+            text-align: center;
+            overflow: hidden;
+            line-height: 1;
+            color: #292929;
+            font-size: 2vh;
+            font-weight: 300;
+            margin-top: 2vh;
+        }
+        i{
+            color: #179f6b;
+            font-size: 4vh;
+            font-weight: 400;
+        }
+    }
+}

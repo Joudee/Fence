@@ -1,0 +1,72 @@
+:local(.root) {
+    width: 100%;
+    overflow: hidden;
+    padding: 12px 24px;
+    border-bottom: 4px solid #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background: #fff;
+    font-size: 16px;
+    line-height: 30px;
+    transition: 0.2s ease-out;
+        -webkit-transition: 0.2s ease-out;
+        -moz-transition: 0.2s ease-out;
+    .home-container{
+        width: 800px;
+        overflow: hidden;
+        margin: 0 auto;
+        .icon-touxiang{
+            float: right;
+            color: #666;
+            font-size: 30px;
+        }
+    }
+    .home {
+        width: 40%;
+        overflow: hidden;
+        float: left;
+        i {
+            font-size: 30px;
+            color: #666;
+            float: left;
+            cursor: pointer;
+            font-weight: 100;
+            transition: 0.2s ease-out;
+            -webkit-transition: 0.2s ease-out;
+            -moz-transition: 0.2s ease-out;
+        }
+        span {
+            padding-left: 8px;
+            color: #666;
+            cursor: pointer;
+            transition: 0.2s ease-out;
+            -webkit-transition: 0.2s ease-out;
+            -moz-transition: 0.2s ease-out;
+            text-decoration: underline;
+        }
+        &:hover {
+            i,
+            span {
+                color: #179f6b;
+            }
+        }
+    }
+    .logout {
+        float: right;
+        color: #179f6b;
+        cursor: pointer;
+        transition: 0.2s ease-out;
+        -webkit-transition: 0.2s ease-out;
+        -moz-transition: 0.2s ease-out;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+    .name{
+        float: right;
+        color: #666;
+        margin-right: 30px;
+    }
+}

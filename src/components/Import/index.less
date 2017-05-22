@@ -1,0 +1,119 @@
+:local(.root) {
+    width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+    border: 1px solid #efefef;
+    border-radius: 5px;
+    padding: 50px;
+    .thead{
+        width: 33.33%;
+        overflow: hidden;
+        float: left;
+        text-align: center;
+        line-height: 1;
+        padding-bottom: 20px;
+        color: #a7a7a7;
+        font-size: 14;
+        font-weight: bold;
+    }
+    ul {
+        width: 100%;
+        overflow: hidden;
+        li {
+            width: 100%;
+            overflow: hidden;
+            margin-bottom: 12px;
+            .mould,.price,.quantity{
+                width: 33.33%;
+            }
+            .mould{
+                height: 120px;
+                float: left;
+                background: #efefef;
+                color: #101010;
+                font-size: 18px;
+                text-align: center;
+                line-height: 120px;
+                input{
+                    display: block;
+                    width: 120px;
+                    height: 40px;
+                    border: 1px solid #efefef;
+                    margin: 40px auto;
+                    border-radius: 5px;
+                    text-align: center;
+                    outline: none;
+                    font-size: 14px;
+                    color: #4d4d4d;
+                    ime-mode:disabled;
+                }
+            }
+            .price,.quantity{
+                height: 120px;
+                line-height: 120px;
+                text-align: center;
+                color: #4d4d4d;
+                font-size: 14px;
+                float: left;
+            }
+            .quantity{
+                input{
+                    display: block;
+                    width: 120px;
+                    height: 40px;
+                    border: 1px solid #efefef;
+                    margin: 40px auto;
+                    border-radius: 5px;
+                    text-align: center;
+                    outline: none;
+                    font-size: 14px;
+                    color: #4d4d4d;
+                    ime-mode:disabled;
+                }
+            }
+            &:last-child{
+                .mould{
+                    background: transparent!important;
+                    color: #b3b3b3;
+                    font-size: 14px;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+    .hsl{
+        width: 100%;
+        overflow: hidden;
+        padding: 20px 0;
+        color: #a7a7a7;
+        border-bottom: 1px solid #c1c1c1;
+        span{
+            float: left;
+            display: block;
+            width: 50%;
+            overflow: hidden;
+            font-size: 20px;
+            float: left;
+            &:nth-child(2){
+                text-align: center;
+            }
+        }
+    }
+    .total{
+        width: 100%;
+        overflow: hidden;
+        padding: 20px 0;
+        span{
+            float: left;
+            display: block;
+            width: 50%;
+            overflow: hidden;
+            font-size: 25px;
+            font-weight: bold;
+            float: left;
+            &:nth-child(2){
+                text-align: center;
+            }
+        }
+    }
+}
