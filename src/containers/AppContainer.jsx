@@ -544,7 +544,7 @@ export function AppContainer(Component){
 		},
 		render: function() {
 			return (
-				<DocumentTitle title="Fence">
+				<DocumentTitle title="Fence outlet|The best of fence outlet in Canada">
 					<div className={styles.root} ref='content' onScroll={this.handleScroll}>
 						<TopBanner step={this.state.step} scrollStatus={this.state.scrollStatus}  handleReset={this.handleReset}></TopBanner>
 						<Header step={this.state.step}></Header>
